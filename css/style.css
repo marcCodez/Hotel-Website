@@ -1,0 +1,66 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	/* dont want padding to add to the width */
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6rem;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	padding-bottom: 1.25rem;
+}
+
+p {
+	margin: 0.625rem 0;
+}
+
+/* Navbar */
+#navbar {
+	background-color: #333;
+	color: #fff;
+	overflow: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#navbar a {
+	color: #fff;
+}
+
+#navbar ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 1.25rem;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+	background: #444;
+	color: #f7c08a;
+}
+
+#navbar h1 {
+	padding: 1.25rem;
+}
