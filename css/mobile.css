@@ -1,0 +1,47 @@
+/* Home Info */
+#home-info {
+	height: 34.375rem;
+}
+
+#home-info .info-img {
+	display: none;
+}
+
+#home-info .info-content {
+	flex-basis: 100%;
+	width: 100%;
+}
+
+#features {
+	flex-direction: column;
+}
+
+.box {
+	width: 100%;
+}
+
+/* About */
+.about-items {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#about-info .info-right {
+	padding-left: 0rem;
+	margin-top: 1.875rem;
+}
+#about-info .info-right,
+#about-info .info-left {
+	width: 100%;
+}
+
+/* Contact */
+.contact-box {
+	flex-direction: column;
+}
+
+#contact-info .box {
+	border-bottom: #444 dotted 0.0625rem;
+}
