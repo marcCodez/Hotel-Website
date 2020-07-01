@@ -200,7 +200,7 @@ p {
 }
 
 #about-info .info-right {
-	width: 50%;
+	min-width: 50%;
 	min-height: 100%;
 	padding-left: 5rem;
 }
@@ -211,7 +211,7 @@ p {
 }
 
 #about-info .info-left {
-	width: 50%;
+	min-width: 50%;
 	min-height: 100%;
 }
 
@@ -225,6 +225,8 @@ p {
 .testimonial {
 	display: flex;
 	min-width: 0;
+	/* make items go to next line when we redue screen size */
+	flex-wrap: wrap;
 }
 
 #testimonials h2 {
