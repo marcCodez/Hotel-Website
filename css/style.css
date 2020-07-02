@@ -202,20 +202,11 @@ p {
 	flex: 1;
 }
 
-#about-info .info-right {
-	min-width: 50%;
-	min-height: 100%;
-	margin-left: 5rem;
-}
-
 #about-info .info-right img {
+	display: block;
+	margin: auto;
 	width: 80%;
 	border-radius: 0.3125rem;
-}
-
-#about-info .info-left {
-	min-width: 50%;
-	min-height: 100%;
 }
 
 /* Testimonials */
