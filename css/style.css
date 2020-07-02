@@ -198,14 +198,18 @@ p {
 	display: flex;
 }
 
+.about-items div {
+	flex: 1;
+}
+
 #about-info .info-right {
 	min-width: 50%;
 	min-height: 100%;
-	padding-left: 5rem;
+	margin-left: 5rem;
 }
 
 #about-info .info-right img {
-	width: 70%;
+	width: 80%;
 	border-radius: 0.3125rem;
 }
 
